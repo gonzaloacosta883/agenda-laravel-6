@@ -1,27 +1,35 @@
-##### #### Pasos a seguir:
-1. Crear base de datos 'agenda'
-2. Ejecutar:
-- `php artisan migrate:install`
-- `php artisan migrate`
-- `php artisan db:seed`
-- `php artisan serve`
+# Agenda
 
-###### Capturas
-![login](https://user-images.githubusercontent.com/67175040/112734585-75550480-8f25-11eb-965a-eca284e9fe2b.png)
+Este sistema es una agenda para almacenar tus contactos mas importantes de manera facil y sencilla echo con laravel 6 y php 7.4
 
-> Login
+## Comenzando 🚀
 
-![menu](https://user-images.githubusercontent.com/67175040/112734836-feb90680-8f26-11eb-83b2-a0f9cf556792.png)
-> Menu
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-![show](https://user-images.githubusercontent.com/67175040/112734839-ffea3380-8f26-11eb-9fd9-c96f014f676c.png)
+### Instalación 🔧
 
-> Vista contacto
+_Pasos a seguir para utilizar el software, posteroirmente se subida para que pueda ser testeado sin necesidad de instalar las dependencias en tu maquina local_
 
-![edit](https://user-images.githubusercontent.com/67175040/112734843-037dba80-8f27-11eb-95c2-f7ccee001332.png)
+_Realizar lo siguiente_
 
-> Editar contacto
+```
+git clone https://github.com/gonzaloacosta883/agenda-laravel-6.git
+php artisan migrate - Crea las tablas en la bd
+php artisan db:seed - Completa las tablas con datos de pruba.
+php artisan serve - Inicia el servidor en el puerto 8000
+```
 
-![createContacto](https://user-images.githubusercontent.com/67175040/112734847-04aee780-8f27-11eb-9c1b-322559cbfcbe.png)
+_Ingresar: localhost:8000/login_ y registrarse.
 
-> Crear contacto
+## Construido con 🛠️ 
+
+_Tecnologias empleadas en este proyecto
+
+* [Laravel 6](https://laravel.com/docs/6.x) - Framework backend utilizado
+* [Composer](https://getcomposer.org/doc/) - Manejador de dependencias
+* [Blade](https://laravel.com/docs/8.x/blade#introduction) - Motor de plantillas
+* [Eloquent](https://laravel.com/docs/8.x/eloquent#introduction) - ORM
+
+## Autores ✒️
+
+* **Acosta Gonzalo Gabriel** - *Trabajo Inicial* 
