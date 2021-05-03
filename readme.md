@@ -8,7 +8,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 ### Instalación 🔧
 
-_Pasos a seguir para utilizar el software, posteroirmente se subida para que pueda ser testeado sin necesidad de instalar las dependencias en tu maquina local_
+_Pasos a seguir para utilizar el software.
 
 _Realizar lo siguiente_
 
